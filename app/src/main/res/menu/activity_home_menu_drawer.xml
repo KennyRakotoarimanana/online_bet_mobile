@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="activity_home_navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/activity_home_drawer_login"
+            android:title="@string/menu_login" />
+        <item
+            android:id="@+id/activity_home_drawer_profil"
+            android:title="@string/menu_profil" />
+        <item
+            android:id="@+id/activity_home_drawer_credit_account"
+            android:title="@string/menu_credit_account" />
+        <item
+            android:id="@+id/activity_home_drawer_logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+</menu>
